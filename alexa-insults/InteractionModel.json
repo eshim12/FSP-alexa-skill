@@ -1,0 +1,42 @@
+{
+  "languageModel": {
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "InsultIntent",
+        "samples": [
+          "insult {name}",
+          "make fun of {name}"
+        ],
+        "slots": [
+          {
+            "name": "name",
+            "type": "AMAZON.US_FIRST_NAME"
+          }
+        ]
+      },
+      {
+        "name": "UnhandledIntent",
+        "samples": [
+          "a",
+          "basd fasd",
+          "car video fun",
+          "hasodifw rogii dhfi"
+        ],
+        "slots": []
+      }
+    ],
+    "invocationName": "flatiron insult"
+  }
+}
